@@ -24,18 +24,18 @@ Welcome to the Hangman Game! This is a classic implementation of the Hangman gam
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/hangman-game.git
+    git clone https://github.com/Maryam-Shafiq/Hangman-Cpp
     cd hangman-game
     ```
 
 2. Compile the code:
     ```bash
-    g++ -o hangman hangman.cpp
+    g++ -o Hangman Hangman.cpp
     ```
 
 3. Run the executable:
     ```bash
-    ./hangman
+    ./Hangman
     ```
 
 ## Example Output
@@ -62,7 +62,7 @@ You win! The word was: BRAZIL
 
 ## Code Overview
 
-The main logic of the game is implemented in the `hangman` function, which includes:
+The main logic of the game is implemented in the `Hangman` function, which includes:
 
 - **Random Word Selection**: The word is chosen randomly from a predefined list.
 - **Display Update**: The current state of the guessed word is displayed.
